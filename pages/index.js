@@ -12,6 +12,11 @@ export default function Home() {
 
       <main className={styles.main}>
         <Image src="/logo.png" width={1600} height={550} alt="test logo" />
+        <img
+          src={require('../public/logo.png')}
+          alt="test logo two"
+          style={{ width: '1600px', height: '550px' }}
+        />
       </main>
 
       <footer className={styles.footer}>
